@@ -1,0 +1,262 @@
+/*
+Theme Name: UBK dwarf theme
+Theme URI: 
+Author: umutbariskarasar
+Author URI: 
+Description: ubk dwarf theme
+License: Proprietary
+Text Domain: ubk
+Version: Running release
+*/
+
+body {
+    font-size:16px;
+    font-family: 'Encode Sans', sans-serif;
+    background-color:#0A2433;
+    color:#fff;
+    line-height:1.35em;
+}
+
+.container {
+    max-width:1280px;
+    padding:15px;
+    margin:0 auto;
+}
+
+h1, h2, h3 {
+    font-weight:700;
+}
+
+h1 {
+    color :#092434;
+    font-size:2em;
+    margin-bottom:20px;
+}
+
+h2 {
+    font-size:1.5em;
+    margin-bottom:15px;
+}
+
+h3 {
+    font-size:1.25em;
+    margin-bottom:10px;
+}
+
+a {
+    text-decoration:none;
+    color:#1585cf;
+}
+
+#header {
+    background-color:#0A2433;
+}
+
+#content {
+    padding-top:60px;
+    padding-botttom:60px;
+    min-height:60vh;
+    background-color:#fff;
+    color:#000;
+}
+
+#logo {
+    max-width:200px;
+}
+
+#footer {
+    text-align:center;
+}
+.product-list {
+   
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 30px;
+    padding: 30px;
+  }
+.card:hover{
+    background-color: #f3f4f6;
+} 
+.add-button:hover{
+    background-color: #092434;
+    opacity: 0.9;
+} 
+
+.order-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 30px;
+    padding: 30px;
+  }
+.price {
+color: #1493BE;
+font-size: 22px;
+}
+
+.price-checkout {
+    margin-left: 20px;
+    height: 30px;
+}
+
+.add-button {
+    margin-bottom: 10px;
+    cursor:pointer;
+    text-align: center;
+    height: 50px;
+    border-radius: 23px/25px;
+    border: 1px solid #1493BE;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #1493BE;
+    color: #fff!important;
+    transition: background-color .2s,box-shadow .2s;
+    outline: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    text-decoration: none;
+    overflow: hidden;
+    width: auto;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+}
+
+.height-text {
+    height: 70px;
+    color: #092434;
+    margin-top: -20px;
+}
+
+.image-border {
+    height: 200px;
+}
+.product-image{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+     -ms-transition: all 1s ease;
+         transition: all 1s ease;
+}
+.product-image:hover{
+    width: 180px;
+    height: 180px;
+}
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 23px/25px;
+}
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+
+.quantity {
+    width: 40px;
+    padding: 5px;
+    margin: 10px;
+}
+.total-payment {
+    text-align: right;
+}
+.continue {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 1000;
+}
+.remove-card {
+    border-radius: 23px/25px;
+    font-size: 20px;
+    background:#9e1818; 
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.remove-card:hover {
+    background-color: rgb(192, 3, 3)
+}
+
+.product-list {
+    margin-top: 10px;
+    background-color: #0092c0;
+    color: white;
+    padding: 10px;
+    border-radius: 23px/25px;
+}
+
+.choose-product{
+    font-size: 18px;
+    background-color: #092434;
+    color: white;
+    padding: 20px;
+    border-radius: 23px/25px;
+}
+
+.error{
+    color:red;
+}
+
+.slogan {
+    font-size: 30px;
+    margin-bottom : 30px;
+    text-align: center;
+}
+.tc_slogan {
+    color: #1493BE;
+}
