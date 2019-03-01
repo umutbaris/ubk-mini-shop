@@ -18,7 +18,7 @@ class productOverviewController {
 		$posts = $data['posts'];
 		$card_icon = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']."images/cart-icon.svg"
 		?>
-		<label class="slogan"><span class="tc_slogan">Buy Something</span> From MiniShop.</label>
+		<label class="slogan"><span class="tc_slogan">Buy Something</span> From Store </label>
 
 		<div class="row">
 		<?php
