@@ -10,7 +10,7 @@ There are only three views on front end side :
  - a success page
    If order completed successfully product counts decreased and admins can view orders in WordPress cms. 
 
-There 2 post category on cms side :
+There are 2 post category on cms side :
 - Products
 - Orders
 
