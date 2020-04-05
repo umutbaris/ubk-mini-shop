@@ -33,10 +33,4 @@ There are 2 post category on cms side :
 - Advanced-Custom-Fields
 - Json-Api
 
-## Installation
-
-* Clone the repository 
-
-`https://github.com/umutbariskarasar/ubk-mini-shop.git`
-
-* You need a db dump and some configuration if you want you can contact me. 
+ You need a db dump and some configuration for installation if you want you can contact me. 
