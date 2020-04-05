@@ -8,7 +8,7 @@ There are only three views on front end side :
 
    Customers view product info ( Image, Name, Count, Price ) and add the product to card with the count. Products keep in Php session
 
- * ## Cart/checkout page
+ * ## Card/checkout page
 
    Customers view own order and adding address and payment information. This page has some validations.
 
